@@ -1,3 +1,6 @@
+<!-- Include Product class -->
+<?php require_once __DIR__ . "/models/product.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,3 +18,9 @@
 
 
 </html>
+
+<?php
+
+$first_product = new Products("lettiera", "4584568465", 6.5);
+
+var_dump($first_product);
