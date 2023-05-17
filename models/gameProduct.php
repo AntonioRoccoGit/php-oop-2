@@ -4,5 +4,5 @@ class GameProduct extends Products
 {
     public $material;
     public $utility;
-    public $value = "Game";
+    public $value = "Giochi";
 }

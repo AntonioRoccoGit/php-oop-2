@@ -8,12 +8,13 @@
 
 class Products
 {
-    public $value = "Products";
+    public $value = "Generico";
     public $name;
     public $serNumber;
+    public $poster;
     public $brand;
     public $price;
-    public $description;
+    public $description = "Inserire una descrizione";
     public $categories;
 
 
@@ -22,12 +23,14 @@ class Products
      * @param string $_serNumb
      * @param float $_price
      * @param object $_categories
+     * @param string $_poster
      */
-    function __construct($_name, $_serNumb, $_price, $_categories)
+    function __construct($_name, $_serNumb, $_price, $_categories, $_poster = null)
     {
         $this->name = $_name;
         $this->serNumber = $_serNumb;
         $this->price = $_price;
         $this->categories = $_categories;
+        $this->poster = $_poster;
     }
 }
