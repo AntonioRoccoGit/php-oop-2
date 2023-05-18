@@ -20,9 +20,7 @@ require_once __DIR__ . "/data/db.php"
 </body>
 
 <!-- footer -->
-<?php include __DIR__ . "/partials/footer.php";
-var_dump($products_array);
-?>
+<?php include __DIR__ . "/partials/footer.php"; ?>
 <!-- /footer -->
 
 </html>

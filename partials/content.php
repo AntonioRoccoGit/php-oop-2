@@ -11,12 +11,10 @@
                             <p class="card-text"><?php echo $product->value ?></p>
                             <i class="fa-solid <?php echo $product->categories->icon ?> mb-2"></i>
                             <a href="#" class="btn btn-primary"><?php echo number_format((float) $product->price, 2, '.', ''); ?>€</a>
-
                         </div>
                     </div>
                 </div>
             <?php }; ?>
-
         </div>
     </div>
 </div>
