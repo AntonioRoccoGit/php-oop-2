@@ -9,6 +9,8 @@ class CoverProduct extends Products
 {
     public $value = "Cucce";
     public $capacity;
+    use OutDoor;
+
 
     /**
      * @param int $_capacity
