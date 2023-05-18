@@ -10,7 +10,7 @@ class Products
 {
     public $value = "Generico";
     public $name;
-    public $serNumber;
+    private $serNumber;
     public $poster;
     public $brand;
     public $price;
