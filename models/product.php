@@ -46,4 +46,8 @@ class Products
             throw new Exception("Serial Number is not valid", 00540);
         }
     }
+    public function getSerialNumber()
+    {
+        return $this->serNumber;
+    }
 }
